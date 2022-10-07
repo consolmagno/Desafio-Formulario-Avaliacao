@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Avaliação</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Avalie a sua mentoria</h1>
+        <p>Chegou a hora de avaliar o seu mentor.Bora lá?</p>
+        <img src="" alt="" />
+      </header>
+      <main>
+        <form action="" id="my-form">
+          <fieldset>
+            <legend>Informações pessoais</legend>
+            <div class="group-wrapper">
+              <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="input-wrapper">
+                <label for="surname">Sobrenome</label>
+                <input type="text" id="surname" />
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Informações do Mentor</legend>
+            <hr />
+            <div class="input-wrapper">
+              <label for="Name_mentor">Selecione quem foi o seu mentor</label>
+              <input type="text" id="Name_mentor" />
+            </div>
+            <div class="input-wrapper">
+              <label for="freedback">Feedback sobre o mentor</label>
+              <textarea id="freedback" cols="30" rows="10"></textarea>
+            </div>
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="selector" />
+              <label for="selector"
+                >Todas as minhas dúvidas foram esclarecidas durante a
+                mentoria</label
+              >
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Agendando próxima mentoria</legend>
+            <hr />
+            <div class="group-wrapper">
+              <div class="input-wrapper">
+                <label for="date">Data</label>
+                <input type="date" id="date" />
+              </div>
+              <div class="input-wrapper">
+                <label for="hour-start">Das</label>
+                <input type="time" id="hour-start" />
+              </div>
+              <div class="input-wrapper">
+                <label for="hour-start">Das</label>
+                <input type="time" id="hour-start" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </main>
+      <footer>
+        <button form="my-form">Salvar</button>
+      </footer>
+    </div>
+  </body>
+</html>
